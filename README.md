@@ -11,10 +11,12 @@
 Если аргумент (путь) не задан, то результат будет в текущему пути, откуда был запущен jar файл, то есть ./result.json 
 
 Примеры запуска:
-java -jar prs-json-countries-assembly-0.1.jar ./data
-  результат ./data/result.json
+java -jar prs-json-countries-assembly-0.1.jar ./data 
 
-java -jar prs-json-countries-assembly-0.1.jar
-результат ./result.json
+результат будет ./data/result.json
+
+java -jar prs-json-countries-assembly-0.1.jar 
+
+результат будет ./result.json
 
 
